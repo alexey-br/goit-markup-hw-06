@@ -509,7 +509,18 @@ ul,h1,h2,h3,p {
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+
+    transition: color var(--trans-dur) var(--trans-time-func);
 }
+.modal-btn:hover,
+.modal-btn:focus {
+    color: var(--color-accent);
+}
+
+.modal-btn-icon {
+    fill: currentColor;
+}
+
 
 .modal-heading {
     font-weight: 700;
